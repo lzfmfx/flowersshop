@@ -1,0 +1,105 @@
+/*重置浏览器默认样式*/
+*{
+	margin:0;
+	padding:0;
+}
+
+/*全局控制*/
+body{
+	background-color:#ededed;
+	font-family:"楷体";
+	font-size:16px;
+	color:#a5a5a5;
+}
+
+.underline{
+	text-align:center;
+	width:700px;
+	margin:0 auto;
+	border-top:0.5px dotted #a5a5a5;
+}
+
+/*标题样式*/
+.header{
+	width:980px;
+    height:86px;
+	line-height:86px;
+	text-align:center;
+	font-family:"微软雅黑";
+	color:#a5a5a5;
+    margin:0 auto 7px;
+}
+.header em{font-size:15px;}
+
+/*分类样式*/
+.classification{
+	width:980px;
+	margin:0 auto;
+}
+.classification h2{
+	font-size:14px;
+	font-family:"微软雅黑";
+	margin:0 auto;
+	color:a5a5a5;
+	height:42px;
+	line-height:42px;
+}
+.classification p{
+	line-height:30px;
+	text-align:center;
+	font-size:18px;
+}
+
+/*热卖板块*/
+.bestsale{
+	width:602px;
+	margin:0 auto;
+}
+.text{
+	line-height:30px;
+	text-indent:2em;
+}
+.text em{
+	text-decoration:underline;
+	font-size:normal;
+}
+
+/*售后板块*/
+.after-sale{
+	width:602px;
+	margin:0 auto;
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:16px;
+	font-weight:bold;
+}
+
+/*页脚板块*/
+.footer{
+	width:602px;
+	margin:0 auto ;
+}
+.footer h3 p{
+	text-indent:2em;
+}
+.footer h3{
+	height:30px;
+	line-height:30px;
+	font-family:"微软雅黑";
+	font-size:18px;
+	font-weight:normal;
+}
+.footer p{
+	font-style:italic;
+	line-height:26px;
+	font-size:14px;
+}
+
+/*个人信息*/
+.design{
+	margin:10px auto;
+	width:300px;
+	text-align:center;
+	border-style:solid;
+	border-color:#98bf21;
+}
